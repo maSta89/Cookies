@@ -1,0 +1,25 @@
+#consent_popup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* opacity: 1; */
+  background-color: aquamarine;
+  transition: opacity 0.8s ease;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+#clicks {
+  background-color: cadetblue;
+  width: 150px;
+  height: 150px;
+}
+
+#times {
+  background-color: rgb(157, 116, 211);
+  width: 150px;
+  height: 150px;
+}
